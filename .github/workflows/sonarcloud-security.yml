@@ -18,5 +18,3 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        sonar.organization: antero71-sonarcloud
-        sonar.projectKey: antero71_snyk-java-reachability-playground
